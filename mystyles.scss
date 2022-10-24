@@ -1,0 +1,38 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+
+// Colors
+$light-sage-green: #D1D9CE;
+$dark-sage-green: #98A08D;
+$cream: #FDFBF7;
+$gray: #64605f;
+$light-gray: #949799;
+$purple: #AE8BD1;
+
+$pale-yellow: #fcf5bd;
+$periwinkle: #6cb9f5;
+$light-green: #b0f56c;
+$midnight-blue: #020b59;
+$pale-dark-green: #42593c;
+$pale-darker-green: #2a4722;
+$industrial: #dbdbd5;
+
+// Base Document Colors
+$body-bg: $industrial;
+$body-color: $pale-darker-green;
+$link-color: $pale-dark-green;
+$navbar-bg: $pale-darker-green;
+$navbar-fg: $industrial;
+
+/*-- scss:rules --*/
+ h1, h3 {
+   letter-spacing: 8px;
+   font-weight: 700;
+   color: $cream;
+ }s
+ 
+ .title {
+   color: $pale-darker-green;
+ } // classes overwrite elements
